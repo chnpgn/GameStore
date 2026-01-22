@@ -2,7 +2,7 @@ GET http://localhost:5182/games
 
 ###
 
-GET http://localhost:5182/games/2
+GET http://localhost:5182/games/22
 
 ###
 
@@ -12,13 +12,13 @@ Content-Type: application/json
 {
     "name": "Super Marios Pro",
     "genre": "Adventure",
-    "price": 12.99,
+    "price": 1245.99,
     "releaseDate": "2023-10-20"
 }
 
 ###
 
-PUT http://localhost:5182/games/2
+PUT http://localhost:5182/games/22
 Content-Type: application/json
 
 {
