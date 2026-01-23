@@ -7,9 +7,8 @@ public record CreateGameDto
     [Required] 
     [StringLength(30, MinimumLength = 3)]
     string Name,
-    [Required] 
-    [StringLength(30, MinimumLength = 3)]
-    string Genre,
+    [Range(1, 50)]
+    int GenreId,
     [Range(1, 100)]
     decimal Price,
     DateOnly ReleaseDate
